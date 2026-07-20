@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic HTML Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header class="header">
+        <nav class="navbar">
+          <h1 class="navbar__logo"><a href="index.html">John Doe</a></h1>
+          <ul class="navbar__links">
+            <li class="navbar__link"><a href="index.html">Home</a> /</li>
+            <li class="navbar__link"><a href="projects.html">Projects</a> /</li>
+            <li class="navbar__link"><a href="articles.html">Articles</a> /</li>
+            <li class="navbar__link"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <!-- hero section -->
+        <div class="header__hero-section">
+          <h1 class="header__title">Frontend Developer</h1>
+          <p class="header__description">
+            html only with proper layout, no styling
+          </p>
+        </div>
+      </header>
+      <!-- Main -->
+      <main class="main">
+        <!-- profile -->
+        <section class="profile">
+          <section class="projects">
+            <h3 class="projects__title">Projects</h3>
+            <ul class="projects__links">
+              <li class="projects__link">
+                <a href="#">HTML Only Portfolio</a>
+              </li>
+              <li class="projects__link"><a href="#">Calculator</a></li>
+              <li class="projects__link"><a href="#">Quiz App</a></li>
+              <li class="projects__link">
+                <a href="#">Countdown Timer</a>
+              </li>
+              <li class="projects__link">
+                <a href="#">Product Upcoming Page</a>
+              </li>
+            </ul>
+          </section>
+          <section class="experience">
+            <article class="experience__work-experience">
+              <h3 class="experience__title">Work Experience</h3>
+              <p><em>roadmap</em></p>
+              <p class="experience__description">
+                Solved all the frontend projects
+              </p>
+              <a href="#" class="experience__link">Visit my Profile</a>
+            </article>
+            <div class="separator"></div>
+            <article class="experience__opensource-work">
+              <h3 class="experience__title">OpenSource Work</h3>
+              <p class="experience__description">
+                Contributed to 50 opensource projects. Made my own projects with
+                200 GitHub Stars.
+              </p>
+              <a href="#" class="experience__github">Visit my GitHub Profile</a>
+            </article>
+          </section>
+          <section class="education">
+            <h3 class="education__title">Education</h3>
+            <p class="education__gpa">Graduated with 3.76 out of 4 GPA.</p>
+            <p class="education__taken-courses">Courses i took:</p>
+            <ul class="education__courses">
+              <li class="education__course">- Structural Programming</li>
+              <li class="education__course">- Object Oriented Programming</li>
+              <li class="education__course">- Database Management Systems</li>
+              <li class="education__course">
+                - Distributed Management Systems
+              </li>
+              <li class="education__course">- FullStack Web Development</li>
+            </ul>
+          </section>
+        </section>
+        <!-- testimonials -->
+        <section class="testimonials">
+          <h3 class="testimonials__title">Reviews from my Teachers</h3>
+          <!-- testimonial -->
+          <div class="testimonials__list">
+            <article class="testimonials__testimonial">
+              <blockquote class="testimonials__quote">
+                John Doe was a brilliant student; always stood out with his
+                assignments.
+              </blockquote>
+              <div class="testimonials__author">
+                <p class="testimonial__author--name">Jane Doe</p>
+                <p class="testimonial__author--title">Assistant Professor</p>
+              </div>
+            </article>
+            <!-- testimonial -->
+            <article class="testimonials__testimonial">
+              <blockquote class="testimonials__quote">
+                John Doe was a brilliant student; always stood out with his
+                assignments.
+              </blockquote>
+              <div class="testimonials__author">
+                <p class="testimonial__author--name">Jane Doe</p>
+                <p class="testimonial__author--title">Assistant Professor</p>
+              </div>
+            </article>
+            <!-- testimonial -->
+            <article class="testimonials__testimonial">
+              <blockquote class="testimonials__quote">
+                John Doe was a brilliant student; always stood out with his
+                assignments.
+              </blockquote>
+              <div class="testimonials__author">
+                <p class="testimonial__author--name">Jane Doe</p>
+                <p class="testimonial__author--title">Assistant Professor</p>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
+      <!-- Footer -->
+      <footer class="footer">
+        <p>&copy; all rights reserved 2026</p>
+      </footer>
+    </div>
+  </body>
+</html>
