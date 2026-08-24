@@ -1,0 +1,89 @@
+/* resets */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-color: hsl(228, 100%, 60%);
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+}
+
+/* navbar */
+.navbar,
+.footer {
+  font-size: 1.4rem;
+}
+.navbar {
+  border-bottom: rgba(255, 255, 255, 0.2) solid 1px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.logo h3 {
+  font-weight: 600;
+}
+
+/* main */
+.description {
+  padding: 25px;
+  border-bottom: rgba(255, 255, 255, 0.2) solid 1px;
+}
+.description h1 {
+  font-size: 4rem;
+  font-weight: 400;
+}
+.description p {
+  font-size: 1.7rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* stats */
+.stats {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 250px;
+  padding: 20px;
+  border-top: rgba(255, 255, 255, 0.2) solid 1px;
+  border-bottom: rgba(255, 255, 255, 0.2) solid 1px;
+}
+.wrapper .header {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper .header span {
+  font-size: 3rem;
+}
+.wrapper .header img {
+  width: 30px;
+}
+
+.wrapper .content h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.wrapper .content p {
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+/* footer */
+.footer {
+  color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+}
